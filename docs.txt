@@ -1,0 +1,7 @@
+==> variable.tf sont des fichiers où toutes les variables sont déclarées ; ceux-ci peuvent ou non avoir une valeur par défaut. 
+==> variable. les tfvars sont des fichiers où les variables sont fournies/assignées à une valeur.
+
+--------commande terraform---------
+ 1) terraform init ===>
+ 2) terraform plan ===>
+ 3) terraform apply ===>
