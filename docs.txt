@@ -2,6 +2,8 @@
 ==> variable. les tfvars sont des fichiers où les variables sont fournies/assignées à une valeur.
 
 --------commande terraform---------
- 1) terraform init ===>
- 2) terraform plan ===>
- 3) terraform apply ===>
+ 1) terraform init ===>initialisation provider plugins
+ 2) terraform plan ===>pour voir les changement au niveaux de l'infrastructure 
+ 3) terraform apply ===>pour le run de terraform
+
+ 4) terraform destroy --auto-approve ====>supprimer cluster kubernetes 

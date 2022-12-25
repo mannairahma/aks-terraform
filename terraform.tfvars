@@ -1,6 +1,6 @@
 resource_group_name = "aks_tf_rg"
 location            = "CentralUS"
-cluster_name        = "devops-pfe-aks"
-kubernetes_version  = "1.19.13"
+cluster_name        = "pfedevops-aks"
+kubernetes_version  = "1.25"
 system_node_count   = 2
-acr_name            = "myacr3210"
+acr_name            = "pfedevops"
